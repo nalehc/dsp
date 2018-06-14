@@ -68,5 +68,5 @@ Here's your first chance to practice this:
 
 What is your favorite emoji?  (Check out this [emoji cheat sheet](http://www.emoji-cheat-sheet.com/).)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I personally think :non-potable_water: deserves some love. Per [emoji tracker](http://www.emojitracker.com/) it's the second least popular one. So you're my favorite Mr. Non-Potable Water, nothing but :two_hearts: from me.
 
