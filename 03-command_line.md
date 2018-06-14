@@ -20,22 +20,29 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+* show current working directory path ---> `pwd`
+* creating a directory ---> `mkdir <directory name>`
+* deleting a directory ---> `rm -r <directory>`
+* creating a file using `touch` command ---> `touch <file name>`
+* deleting a file ---> `rm <file name>`
+* renaming a file ---> `mv <old name> <new name>`
+* listing hidden files ---> `ls -a`
+* copying a file from one directory to another ---> `cp <file source> <destination>`  
+* **Print to terminal** ---> `echo <text>`
+* **Search for something** ---> `grep <expression>`
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls` ---> list files in current directory  
+`ls -a` ---> list all files in current directory including hidden  
+`ls -l` ---> list detailed info of all files  
+`ls -lh` ---> list detailed info of all files with sizes as 'human readable' sizes  
+`ls -lah`---> list all files with detailed information and human readable sizes including hidden  
+`ls -t`  ---> list all files sorted by time modified  
+`ls -Glp` ---> list all files with color coding and details and '/' at the end  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -43,7 +50,8 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`-u` ---> list in order of last access
+`-r` ---> reverses the ordering
 
 ---
 
@@ -51,7 +59,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` is a bit like using a loop. You can pass in multiple arguments and execute the same command for each one.
+
+Example:
+
+If I want to delete files with certain extensions, this would let me do it all at once. (Obviously being sure to double check what directory I'm in first):
+
+`find . -name '*.py' | xargs rm`
 
  
 
