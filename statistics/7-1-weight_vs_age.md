@@ -34,4 +34,4 @@ print('thinkstats2 Corr', thinkstats2.Corr(ages, weights))
 print('thinkstats2 SpearmanCorr', 
       thinkstats2.SpearmanCorr(ages, weights))
       
-plt.scatter(ages, weights, marker="o", color = (colors[0]), alpha=0.75)
+plt.scatter(ages, weights, marker="o", color = 'green', alpha=0.75)
